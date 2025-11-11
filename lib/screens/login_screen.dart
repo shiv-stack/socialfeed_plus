@@ -25,7 +25,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // Instagram-like gradient background
+      // gradient background
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(

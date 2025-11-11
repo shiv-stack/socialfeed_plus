@@ -37,7 +37,7 @@ class _AnimatedLikeState extends State<AnimatedLike>
   void didUpdateWidget(covariant AnimatedLike oldWidget) {
     super.didUpdateWidget(oldWidget);
 
-    // Only animate when like state changes
+    // Only animates when like state changes
     if (widget.isLiked != oldWidget.isLiked) {
       if (!_ctr.isAnimating) {
         _ctr.forward(from: 0.0).then((_) => _ctr.reverse(from: 1.0));

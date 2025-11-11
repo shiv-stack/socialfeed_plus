@@ -78,7 +78,7 @@ class AppTheme {
     );
   }
 
-  /// Gradient for AppBar (common)
+  /// Gradient for AppBar 
   static Widget gradientAppBarBackground() {
     return Container(
       decoration: const BoxDecoration(

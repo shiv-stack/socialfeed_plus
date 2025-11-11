@@ -5,7 +5,7 @@ class AppConstants {
 
   // Default profile image for dummy user
   static const String defaultProfile =
-      'assets/profile_placeholder.png'; // Add to assets folder
+      'assets/profile_placeholder.png'; //  to assets folder
 
   // Hive box names
   static const String postsBox = 'posts_box';
